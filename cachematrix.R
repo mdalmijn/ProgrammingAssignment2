@@ -1,12 +1,12 @@
 ## makeCacheMatrix creates a matrix object that can cache its inverse.
 ## cacheSolve calculates the inverse of the matrix returned by makeCacheMatrix.
 ## If the inverse was already calculated and the matrix is not changed, then the inverse is retrieved from the cache.
-## The function assumes taht the supplied matrix is always invertible.
+
 
 ## makeCacheMatrix has a list of four functions
 ## 1. set - set the value of the matrix.
 ## 2. get - get the value of the matrix.
-## 3. setmatrix - sets the inverse of the matrix.
+## 3. setmatrix - set the inverse of the matrix.
 ## 4. getmatrix - get the inverse of the matrix.
 
 makeCacheMatrix <- function(x = matrix()) { 
